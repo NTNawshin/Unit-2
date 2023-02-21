@@ -27,10 +27,10 @@ var popup = L.popup()
     .setContent("I am a standalone popup.")
     .openOn(map);
 
-var popup = L.popup();
+var popup2 = L.popup();
 
 function onMapClick(e) {
-    popup
+    popup2
         .setLatLng(e.latlng)
         .setContent("You clicked the map at " + e.latlng.toString())
         .openOn(map);
