@@ -1,3 +1,49 @@
-#map{
-    height: 500px;
+#map {
+	height: 600px;
+	width: 100%;
 }
+
+.leaflet-popup-content p {
+    margin: 0.2em 0;
+}
+
+#panel {  
+    width: 25%;  
+    padding: 200px;  
+    display: inline-block;  
+    vertical-align: top;  
+    text-align: center;  
+    line-height: 42px;  
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}  
+
+.container { 
+    height: 100px;
+    position: relative;
+}
+
+.range-slider {  
+    width: 55%;  
+}  
+
+.step {  
+    width: 10%;  
+}  
+
+.step img {  
+    width: 50%;  
+}  
+
+#reverse{
+    height: 30px;
+}
+#forward{
+    height: 30px;
+}
+
