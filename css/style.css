@@ -1,19 +1,25 @@
 #map {
-	height: 600px;
-	width: 100%;
+    height: 600px;
+    width: 100%;
 }
 
 .leaflet-popup-content p {
     margin: 0.2em 0;
 }
 
-#panel {  
-    width: 25%;  
-    padding: 200px;  
-    display: inline-block;  
-    vertical-align: top;  
-    text-align: center;  
-    line-height: 42px;  
+.title {
+    text-align: center;
+    font-family: Tahoma;
+    color: #c76b6c;
+}
+
+#panel {
+    width: 25%;
+    padding: 200px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    line-height: 42px;
 
     margin: 0;
     position: absolute;
@@ -21,29 +27,45 @@
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-}  
-
-.container { 
-    height: 100px;
-    position: relative;
 }
 
-.range-slider {  
-    width: 55%;  
-}  
+.sequence-control-container {
+    width: 350px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    line-height: 30px;
+    text-align: center;
+    border: solid gray 1px;
+}
 
-.step {  
-    width: 10%;  
-}  
+.legend-control-container {
+    width: 280px;
+    height: 180px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 1px;
+    text-align: center;
+    border: solid rgb(70, 113, 162) 1px;
+}
 
-.step img {  
-    width: 50%;  
-}  
+.range-slider {
+    width: 250px;
+}
 
-#reverse{
+.step {
+    width: 40px;
+}
+
+.step img {
+    width: 50%;
+    height: auto;
+}
+
+#reverse {
     height: 30px;
 }
-#forward{
+
+#forward {
     height: 30px;
 }
-
